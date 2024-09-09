@@ -1,5 +1,5 @@
 def solution(numbers):
-    answer = numbers
-    for i, j in enumerate(numbers):
-        answer[i] = j*2
+    answer = []
+    for i in numbers:
+        answer.append(i*2)
     return answer
